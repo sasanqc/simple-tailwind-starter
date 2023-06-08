@@ -1,3 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html {
+  @apply text-[50%] md:text-[56.25%] lg:text-[62.5%];
+}
